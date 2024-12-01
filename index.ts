@@ -24,3 +24,7 @@ console.log(sequence.next().value);
 console.log(sequence.next().value);
 console.log(sequence.next().value);
 console.log(sequence.next().value);*/
+
+import { interval } from 'rxjs';
+
+interval(1000).subscribe((value) => {console.log(value)})

@@ -9,6 +9,7 @@ const sequence = new Promise((res) => {
 sequence.then((v) => console.log(v));
 sequence.then((v) => console.log(v));*/
 
+/*
 const sequence = function* iteratorFn() {
     let item = 1;
     while (true) {
@@ -22,4 +23,4 @@ console.log(sequence.next().value);
 console.log(sequence.next().value);
 console.log(sequence.next().value);
 console.log(sequence.next().value);
-console.log(sequence.next().value);
+console.log(sequence.next().value);*/
